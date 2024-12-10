@@ -49,20 +49,32 @@ Once the Line chatbot is set up and connected to your account, users can send me
 **PS.**  API_KEY = TOKEN sorry ;-;  
 You can use ngrok to get your server url then use that to set Webhook at Line developer portal
 and you need to have a line message bot one first.
- 1. **Clone repository**
-`git clone  git clone https://github.com/NutNaphop/GAP-GRADE-BOT.git`
- 2.  **Make a python environment**
-`py -m venv env`
- 3. **Activate your environment**
-`env\Scripts\activate`
- 4. **Install pip in requirements.txt**
-`pip install -r requirements.txt`
- 5. **Make .env file in root directory and declare a variable**
-`API_KEY = <Your API KEY>`
- 6. **Make a folder name "database" and make SQLite file name Students.db"**
-		In Students.db Table name is Students and have a column like this
-	 -  LineID as a text ( PK )
-	 -  NontriID as a text 
-	 -  Password as a text
- 7. **Run a project** 
-`py app.py` 
+1. **Clone repository**
+```bash
+git clone  git clone https://github.com/NutNaphop/GAP-GRADE-BOT.git
+```
+2.  **Make a python environment**
+```bash
+py -m venv env
+```
+3. **Activate your environment**
+```bash
+env\Scripts\activate
+```
+4. **Install pip in requirements.txt**
+ ```bash
+pip install -r requirements.txt
+```
+5. **Make .env file in root directory and declare a variable**
+```bash
+API_KEY = <Your API KEY>
+```
+6. **Make a folder name "database" and make SQLite file name Students.db"**
+In Students.db Table name is Students and have a column like this
+	-  LineID as a text ( PK )
+	-  NontriID as a text 
+	-  Password as a text
+7. **Run a project**
+```bash
+py app.py
+```
