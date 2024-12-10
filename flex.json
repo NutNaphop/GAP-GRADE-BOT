@@ -1,0 +1,63 @@
+{
+    "to":"",
+    "messages":[
+       {
+          "type":"flex",
+          "altText":"เกรดของคุณอยู่ในมือผมแล้ว!!!",
+          "contents":{
+            "type": "carousel",
+            "contents": [
+              {
+                "type": "bubble",
+                "size": "giga",
+                "body": {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "เกรดของฉัน",
+                      "size": "xl",
+                      "weight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "text": "Year ... Term ..."
+                    },
+                    {
+                      "type": "separator",
+                      "margin": "md",
+                      "color": "#000000"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "horizontal",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "วิชา",
+                          "align": "start",
+                          "weight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "text": "หน่วยกิต",
+                          "align": "center",
+                          "weight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "text": "เกรด",
+                          "align": "end",
+                          "weight": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+       }
+    ]
+ }
